@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OTA Test CTF
+title: OTA TestCTF
 ---
 
 <!--break-->
@@ -19,4 +19,4 @@ title: OTA Test CTF
   
 
 
-Updated on Tue Jan 30 18:58:39 2018
+Updated on Tue Jan 30 19:10:23 2018
