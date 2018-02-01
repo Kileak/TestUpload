@@ -1,1 +1,1 @@
-{"ctfname": "dev-01-18", "challenges": [{"name": "testchall", "solver": ["kileak"], "solve_date": 1517488801, "category": "pwn"}]}
+{"ctfname": "dev-01-18", "challenges": [{"name": "testchall", "solver": ["kileak"], "solve_date": 1517488801, "category": "pwn"}, {"name": "testweb2", "solver": ["kileak", "anothermember"], "solve_date": 1517489015, "category": "web"}]}
