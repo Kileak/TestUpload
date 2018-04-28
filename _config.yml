@@ -1,8 +1,8 @@
 # --- General options --- #
 
 # If you are building a GitHub project page then use these settings:
-url: "http://opentoallctf.github.io/SolveTracker"
-baseurl: "/SolveTracker"
+url: "http://kileak.github.io/TestUpload"
+baseurl: "/TestUpload"
 
 # Name of website
 title: OTA CTF tracker
