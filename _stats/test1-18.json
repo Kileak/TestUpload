@@ -1,0 +1,1 @@
+{"ctfname": "test1-18", "challenges": [{"name": "cdf", "solver": ["kileak", "pwn"], "solve_date": 1524912916, "category": "pwn"}]}
