@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>AceBear Security Contest 2018</title>
+
+  <meta name="author" content="OTA Challenge Bot" />
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="OTA CTF tracker - Archiving challenge solves from CTFs" href="/SolveTracker/feed.xml" />
+
+  
+
+  
+    
+      
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/SolveTracker/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/SolveTracker/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/SolveTracker/css/main.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="AceBear Security Contest 2018" />
+  
+
+   
+  <meta property="og:description" content="arm-xpl    (Solved by: kileak on Sat Jan 27 10:05:43 2018) bearshare    (Solved by: xeznok on Sat Jan 27 06:44:57 2018) bearshare2    (Solved by: xeznok on Sat Jan 27 07:54:00 2018) comicstore    (Solved by: kileak on Sat Jan 27 17:44:44 2018) easyheap    (Solved by: kileak on Sat Jan 27 07:52:10 2018)...">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+  <meta property="og:url" content="http://localhost:4000/2018-01-30-acebear/" />
+  <link rel="canonical" href="http://localhost:4000/2018-01-30-acebear/" />
+  
+
+  
+  <meta property="og:image" content="http://localhost:4000/img/avatar-icon.png" />
+  
+
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@" />
+  <meta name="twitter:creator" content="@" />
+
+  
+  <meta name="twitter:title" content="AceBear Security Contest 2018" />
+  
+
+  
+  <meta name="twitter:description" content="arm-xpl    (Solved by: kileak on Sat Jan 27 10:05:43 2018) bearshare    (Solved by: xeznok on Sat Jan 27 06:44:57 2018) bearshare2    (Solved by: xeznok on Sat Jan 27 07:54:00 2018) comicstore    (Solved by: kileak on Sat Jan 27 17:44:44 2018) easyheap    (Solved by: kileak on Sat Jan 27 07:52:10 2018)...">
+  
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/img/avatar-icon.png" />
+  
+
+  
+
+</head>
+
+
+  <body>
+
+    
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand" href="http://localhost:4000">OTA CTF tracker</a>
+      
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+      </ul>
+    </div>
+
+	
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="http://localhost:4000 ">
+	      <img class="avatar-img" src="/SolveTracker/img/avatar-icon.png" />
+		</a>
+	  </div>
+	</div>
+	
+
+  </div>
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-heading">
+          <h1>AceBear Security Contest 2018</h1>
+		  
+		  
+		  
+		  <span class="post-meta">Posted on January 30, 2018</span>
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+      
+
+      <article role="main" class="blog-post">
+        <!--break-->
+
+<p><strong>arm-xpl</strong><br />
+   (Solved by: <strong>kileak</strong> on <em>Sat Jan 27 10:05:43 2018</em>)</p>
+
+<p><strong>bearshare</strong><br />
+   (Solved by: <strong>xeznok</strong> on <em>Sat Jan 27 06:44:57 2018</em>)</p>
+
+<p><strong>bearshare2</strong><br />
+   (Solved by: <strong>xeznok</strong> on <em>Sat Jan 27 07:54:00 2018</em>)</p>
+
+<p><strong>comicstore</strong><br />
+   (Solved by: <strong>kileak</strong> on <em>Sat Jan 27 17:44:44 2018</em>)</p>
+
+<p><strong>easyheap</strong><br />
+   (Solved by: <strong>kileak</strong> on <em>Sat Jan 27 07:52:10 2018</em>)</p>
+
+<p><strong>encodr</strong><br />
+   (Solved by: <strong>vakzz</strong> on <em>Sat Jan 27 15:21:29 2018</em>)</p>
+
+<p><strong>fibonacci</strong><br />
+   (Solved by: <strong>wooyaggo</strong> on <em>Sat Jan 27 19:51:00 2018</em>)</p>
+
+<p><strong>lolgame</strong><br />
+   (Solved by: <strong>kileak</strong> on <em>Sat Jan 27 08:51:41 2018</em>)</p>
+
+<p><strong>memo</strong><br />
+   (Solved by: <strong>rh0gue</strong> on <em>Sat Jan 27 09:19:45 2018</em>)</p>
+
+<p><strong>securelog</strong><br />
+   (Solved by: <strong>kileak</strong> on <em>Sat Jan 27 14:36:57 2018</em>)</p>
+
+<p><strong>tetshop</strong><br />
+   (Solved by: <strong>xeznok</strong> on <em>Sun Jan 28 02:55:37 2018</em>)</p>
+
+<p><strong>urlparam</strong><br />
+   (Solved by: <strong>ironsight</strong> on <em>Sat Jan 27 03:37:24 2018</em>)</p>
+
+<p><strong>welcome</strong><br />
+   (Solved by: <strong>corb3nik</strong> on <em>Sat Jan 27 07:29:11 2018</em>)</p>
+
+<p>Updated on Tue Jan 30 14:20:37 2018</p>
+
+      </article>
+
+      
+
+      
+        <!-- Check if any share-links are active -->
+
+
+
+
+<section id = "social-share-section">
+  <span class="sr-only">Share: </span>
+
+  
+  <!--- Share on Twitter -->
+    <a href="https://twitter.com/intent/tweet?text=AceBear+Security+Contest+2018+http://localhost:4000/2018-01-30-acebear/"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fa fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  
+
+  
+
+  
+
+  
+
+</section>
+
+
+
+      
+
+      <ul class="pager blog-pager">
+        
+        
+      </ul>
+
+      
+        <div class="disqus-comments">
+          
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links"><li><a href="https://github.com/OpenToAllCTF" title="GitHub"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">GitHub</span>
+              </a>
+            </li><li><a href="https://twitter.com/OpenToAllCTF" title="Twitter"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li><li><a href="https://reddit.com/r/OpenToAllCTFteam" title="Reddit"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-reddit fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Reddit</span>
+              </a>
+            </li></ul>
+      <p class="copyright text-muted">
+      OTA Challenge Bot
+      &nbsp;&bull;&nbsp;
+      2018
+
+      
+
+      
+      </p>
+          <!-- Please don't remove this, keep my open source work credited :) -->
+    <p class="theme-by text-muted">
+      Theme by
+      <a href="http://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+    </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+
+
+
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/SolveTracker/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/SolveTracker/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/SolveTracker/js/main.js"></script>
+    
+  
+
+
+
+
+  
+  </body>
+</html>
